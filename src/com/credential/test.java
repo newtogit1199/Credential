@@ -8,6 +8,7 @@ public class test {
 		try{
 			credential = new Credential(username, password);
 		}catch(Exception e){
+			// This is a test program
 			//System.out.println("error: " +e.getMessage());
 			//System.out.println("error: " +e.getStackTrace());
 			System.out.println("Credentials are wrong");
